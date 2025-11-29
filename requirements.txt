@@ -1,0 +1,8 @@
+fastapi==0.111.1          # FastAPI framework
+uvicorn==0.23.2           # ASGI server to run FastAPI
+requests==2.32.0          # For calling Gemini API
+pydantic==2.3.0           # For request/response data validation
+
+
+# venv\Scripts\activate
+# uvicorn main:app --reload
